@@ -16,8 +16,8 @@ function App() {
     dispatch({ type: 'TOGGLE_TODO', payload: toggleid })
   }
 
-  const clearCompleted = event => {
-    event.preventDefault();
+  const clearCompleted = e => {
+    e.preventDefault();
     dispatch({ type: 'CLEAR_COMPLETED' })
   }
   return (
