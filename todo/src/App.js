@@ -5,7 +5,7 @@ import Todos from './components/Todos'
 // import Todo from './components/Todo'
 
 function App() {
-
+// took 20 min to install dependendcies on the laptop....................
 
   const [state, dispatch] = useReducer(reducer, initialState)
   const addTodo = (e,todo) => {
